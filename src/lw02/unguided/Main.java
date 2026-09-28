@@ -26,7 +26,7 @@ public class Main {
 
         books.add(new String[]{"Kalkulus", "2"});
         books.add(new String[]{"Fisika", "1"});
-        books.add(new String[]{"Kimia", "2"});
+        books.add(new String[]{"Statistika", "2"});
 
         queue.addAll(request);
 
