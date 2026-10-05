@@ -43,10 +43,14 @@ public class Main {
         for(String result : check){
             System.out.println(result);
         }
+        System.out.println();
+
         System.out.println("==== Final Enrollment ====");
         for(String key : enrollment.keySet()){
             System.out.println(key + " : " + enrollment.get(key) + " students");
         }
+        System.out.println();
+        
         System.out.println("Rejected operations: " + gagal);
     }
 }
